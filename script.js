@@ -1,7 +1,7 @@
 let audioPlayer = document.getElementById('audioPlayer');
 
 function playSound(soundFile) {
-  audioPlayer.src = sounds/${soundFile};
+  audioPlayer.src = `sounds/${soundFile}`;
   audioPlayer.play();
 }
 
